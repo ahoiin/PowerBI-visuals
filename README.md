@@ -1,11 +1,24 @@
-# Microsoft Power BI visuals
+# Microsoft Power BI visuals plus custom visuals by [Ahoiin](https://www.ahoi.in)
 
-The Microsoft Power BI visuals project provides high quality data visualizations that you can use to extend [Power BI](https://powerbi.microsoft.com/).  The project contains over 20 visualization types, the framework to run them, and the testing infrastructure that enables you to build high quality visualizations.  The framework provides all the interfaces you need to integrate fully with Power BI's selection, filtering, and other UI experiences.  The code is written in [TypeScript](http://www.typescriptlang.org/) so it's easier to build and debug. Everything compiles down to JavaScript and runs in modern web browsers.  The visuals are built using [D3](http://d3js.org/) but you can use your favorite technology like [WebGL](https://en.wikipedia.org/wiki/WebGL), [Canvas](https://en.wikipedia.org/wiki/Canvas_element), or [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics). This gives you everything you need to build custom visualizations for Power BI.
+The Microsoft Power BI visuals project provides high quality data visualizations that you can use to extend [Power BI](https://powerbi.microsoft.com/).  The project contains over 20 visualization types plus SQLBI custom visuals, the framework to run them, and the testing infrastructure that enables you to build high quality visualizations.  The framework provides all the interfaces you need to integrate fully with Power BI's selection, filtering, and other UI experiences.  The code is written in [TypeScript](http://www.typescriptlang.org/) so it's easier to build and debug. Everything compiles down to JavaScript and runs in modern web browsers.  The visuals are built using [D3](http://d3js.org/). This gives you everything you need to build custom visualizations for Power BI.
+
+
+## Power BI Best Visuals Contest
+
+Please vote our custom visuals for the [Power BI Best Visuals Contest](http://community.powerbi.com/t5/Best-Visual-Contest/con-p/best_visual_contest/tab/entries):
+
+- **One Percent Circles Chart by Ahoiin**
+
+Visualize a singe percentage value with a nice, fancy chart of circles. It allows you to bind one percentage value and a description text. Perfect for dashboards with simple data.
+
+![alt tag](onepercentcircles.png)
+
 
 ## What is included
 
-1. Source code of all the visuals used in Power BI.
-2. A Playground app to help you try out the existing visuals, and experiment with the ones you have created.
+1. Source code of all the visuals used in Power BI
+2. Source code of **One Percent Circles Chart by Ahoiin**
+4. A Playground app to help you try out the existing visuals, and experiment with the ones you have created
 
 ## Getting Started
 
@@ -25,7 +38,7 @@ In order to build the Power BI visuals, ensure that you have [Git](http://git-sc
 Clone a copy of the repo:
 
 ```
-git clone https://github.com/Microsoft/PowerBI-visuals.git
+git clone https://github.com/ahoiin/PowerBI-visuals.git
 ```
 
 Change to the PowerBI-visuals directory:
@@ -39,15 +52,6 @@ Install dev dependencies:
 ```
 npm install  # This command will install Gulp and all necessary modules
 ```
-
-## How to Engage, Contribute and Provide Feedback
-
-There are many ways in which you can contribute to Power BI visuals:
-* You can contribute fixes and new visuals to this repo, read the [contribution guildelines](https://github.com/Microsoft/PowerBI-visuals/blob/master/CONTRIBUTING.md).
-* Submit bugs by opening a GitHub Issue [here](https://github.com/Microsoft/PowerBI-visuals/issues).
-* Contribute to discussions on [StackOverflow](http://stackoverflow.com/questions/tagged/powerbidev).
-* Follow the [Power BI Developer](http://blogs.msdn.com/powerbidev) blog for updates.
-* Follow Power BI on Twitter [@mspowerbi](http://twitter.com/mspowerbi).
 
 ## Documentation
 
@@ -94,6 +98,6 @@ As result, local version of the PhantomJS will be downloaded and installed into 
 
 ### Copyrights
 
-Copyright (c) 2015 Microsoft
+Copyright (c) 2015 Microsoft and SQLBI
 
 See the [LICENSE](/LICENSE) file for license rights and limitations (MIT).
