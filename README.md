@@ -11,7 +11,7 @@ Please vote our custom visuals for the [Power BI Best Visuals Contest](http://co
 
 Visualize a singe percentage value with a nice, fancy chart of circles. It allows you to bind one percentage value and a description text. Perfect for dashboards with simple data.
 
-![alt tag](onepercentcircles.png)
+![alt tag](onepercentcircles_.png)
 
 
 ## What is included
